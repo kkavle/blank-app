@@ -10,4 +10,4 @@ for row in df.itertuples():
     
 import requests
 smoothiefroot_response = requests.get("https://smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothiefroot_response.json())
+st.text(smoothiefroot_response)
